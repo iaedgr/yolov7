@@ -1,16 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-  	<title>GNOV IA Model</title>
-	</head>
+    <title>GNOV IA Model</title>
+  </head>
   <style>
-    a{
-      all:unset;
+    a {
+      all: unset;
     }
   </style>
-	<body>	
-        <h1>Hello Welcome To GNOV IA</h1>
-
-        <a href="/upload">Enjoy Our Model IA <span style="color: blueviolet;">HERE !!!</span> </a>
-    </body>
+  <body>
+    <h1>Hello Welcome To GNOV IA</h1> <span style="color: blueviolet;">Enjoy Our Model IA</span>
+    {% comment %} <form action="/upload" method="POST" enctype="multipart/form-data">
+      Sélectionnez une image à detecter :<input type="file" name="file" /> {% endcomment %}
+      <input type="submit" value="Upload" />
+    </form>
+  </body>
 </html>
