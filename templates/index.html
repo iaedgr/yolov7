@@ -7,11 +7,17 @@
     a {
       all: unset;
     }
+    input {
+        background:  none;
+        border:solid 1px blueviolet;
+        border-radius :8px;
+    }
+
   </style>
   <body>
-    <h1>Hello Welcome To GNOV IA</h1> <span style="color: blueviolet;">Enjoy Our Model IA</span>
-    {% comment %} <form action="/upload" method="POST" enctype="multipart/form-data">
-      Sélectionnez une image à detecter :<input type="file" name="file" /> {% endcomment %}
+    <h1>Hello Welcome To GNOV IA</h1> <h4 style="color: blueviolet;">Enjoy Our Model IA</h4>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+    <!--  Sélectionnez une image à detecter :<input type="file" name="file" /> -->
       <input type="submit" value="Upload" />
     </form>
   </body>
